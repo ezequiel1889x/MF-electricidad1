@@ -26,6 +26,10 @@
     color: rgba(255, 255, 255, 0.877);
 }
 
+
+
+
+
 /* Body */
 
 .bodyContIndex{
@@ -36,13 +40,36 @@
 }
 
 .sectionPrincipal{
-    background-color: rgba(172, 172, 233, 0.808)
+    padding: 40px;
+    background-color: rgba(34, 34, 114, 0.651)
 }
 
 .sectionPrincipal h1{
     text-align: center;
 }
 
+
+
+.contImgPrincipal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.parrafoPrincipal{
+    text-align: center;
+}
+
+
+.contImgPrincipal img{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    transition: all 0.1s;
+}
+
+.contImgPrincipal img:hover{
+    border: 2px solid black;
+}
 
 /* Footer */
 footer{
