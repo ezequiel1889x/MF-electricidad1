@@ -52,6 +52,9 @@ header{
     }
 }
 
+body h3{
+    overflow: hidden;
+}
 
 .bodyContIndex{
     background: rgba(60, 51, 126, 0.671);
@@ -132,14 +135,75 @@ header{
     height: 350px;
     width: 480px;
 }
-.s2{
-    float: right;
 
-}
 
 .tituloSec{
     overflow-y: hidden;
 }
+
+
+.contS1{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.877);
+    gap: 40px;
+
+}
+.contS2{
+   display: flex;
+   align-items: center;
+   flex-direction: row-reverse;
+   text-align: right;
+   gap: 40px;
+   color: rgba(255, 255, 255, 0.877);
+
+}
+.s1{
+    grid-area: img1;
+}
+.s1:hover{
+    -webkit-box-shadow: 1px -1px 39px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px -1px 39px 0px rgba(0,0,0,1);
+    box-shadow: 1px -1px 39px 0px rgba(0,0,0,1);
+}
+.s1Txt{
+    grid-area: txt1;
+}
+.s2{
+    grid-area: img2;
+}
+.s2:hover{
+    -webkit-box-shadow: 1px -1px 39px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px -1px 39px 0px rgba(0,0,0,1);
+    box-shadow: 1px -1px 39px 0px rgba(0,0,0,1); 
+}
+.s2Txt{
+    margin-left: 630px;
+    display: block;
+    grid-area: txt2;
+}
+
+.contH3{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: left;
+}
+.contH3 h3{
+    width: 39%;
+    text-align: left;
+}
+
+.tituloH3:hover{
+    color: black;
+    transition: 0.4s;
+}
+
+.tilde:hover{
+    color: black;
+    transition: 0.4s;
+}
+
 /* Footer */
 footer{
     background: rgb(2,2,167);
