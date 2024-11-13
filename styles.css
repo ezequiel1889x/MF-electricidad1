@@ -5,6 +5,10 @@
 }
 
 /* HEADER */
+
+header{
+    margin-bottom: 30px;
+}
 .imgNav{
     border-radius: 50%;
     transition: all 0.3s;
@@ -17,9 +21,9 @@
 }
 
 .navbar{
-
-    background: rgb(2,2,167);
-    background: linear-gradient(90deg, rgba(2,2,167,0.6474964985994398) 0%, rgba(17,15,56,0.9556197478991597) 35%);
+    position: sticky !important; 
+    background: rgb(2, 2, 167);
+    background: linear-gradient(90deg, rgba(2,2,167,0.6474964985994398) 0%, rgb(17, 15, 56) 35%);
 }
 
 .navbar div a{
@@ -31,32 +35,65 @@
 
 
 /* Body */
+@media screen and (max-width: 320px) {
+    .contImgPrincipal{
+        width: 250px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        overflow: hidden;
+    }
+    .contImgPrincipal img{
+        background-repeat: no-repeat;
+        
+    }
+}
+
 
 .bodyContIndex{
-    height: 100vh;
+    background: rgba(60, 51, 126, 0.671);
+    background: radial-gradient(circle, rgba(101,97,131,1) 0%, rgba(16,42,106,1) 100%);    
+    height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .sectionPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 40px;
-    background-color: rgba(34, 34, 114, 0.651)
+    height: 1300px;
+    background: radial-gradient(circle, rgba(101,97,131,1) 0%, rgba(16,42,106,1) 100%);    height: 200vh;
+
+
 }
 
 .sectionPrincipal h1{
     text-align: center;
+    margin-bottom: 0px;
 }
 
-
+.mf:hover{
+    transition: all 0.7s;
+    color: white;
+}
 
 .contImgPrincipal{
+    width: 100%;
+    gap: 3%;
     display: flex;
     justify-content: space-around;
+    margin-top: 80px;
 }
 
-.parrafoPrincipal{
+.parrafoPrincipal{  
     text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+    backdrop-filter: blur(20%); /* EL BLUR */
 }
 
 
@@ -68,7 +105,11 @@
 }
 
 .contImgPrincipal img:hover{
-    border: 2px solid black;
+    border: 3px solid black;
+    padding: 4px;
+    -webkit-box-shadow: 1px -1px 39px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px -1px 39px 0px rgba(0,0,0,1);
+    box-shadow: 1px -1px 39px 0px rgba(0,0,0,1);
 }
 
 /* Footer */
