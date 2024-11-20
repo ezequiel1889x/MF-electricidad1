@@ -179,7 +179,7 @@ body h3{
     width: 95%;
     height: 100%;
     margin-bottom: 240px;
-    gap: 100px;
+    gap: 70px;
     
 
 }
@@ -314,8 +314,8 @@ body h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px;
-    gap: 40px;
+    height: 31.25rem;
+    gap: 20px;
 }
 .h3Sect3{
     font-size: 50px;
@@ -353,12 +353,12 @@ body h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50%;
+    height: 70%;
     width: 60%;
     gap: 25px;
-    background-color: rgba(0, 0, 0, 0.281);
-    padding: 10px;
-
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 15px;
+    border-radius: 15px;
 }
 
 
@@ -368,10 +368,21 @@ body h3{
 .contForm > div{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 10%;
+    justify-content: center;
+    width: 90%;
+    height: 15%;
     font-size: 18px;
+    color: white;
+    gap: 2px;
 }
+
+
+
+#txt1{
+    min-height: 30px;
+}
+
+
 /* Footer */
 footer{
     height: 3%;
