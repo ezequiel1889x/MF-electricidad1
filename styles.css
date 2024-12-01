@@ -14,9 +14,6 @@ h3{
 
 /* HEADER */
 
-header{
-    margin-bottom: 30px;
-}
 .imgNav{
     border-radius: 50%;
     transition: all 0.3s;
@@ -74,6 +71,7 @@ body h3{
     flex-direction: column;
     justify-content: space-between;
     gap: 80px;
+    scroll-behavior: smooth;
 
 
 }
@@ -86,7 +84,7 @@ body h3{
     justify-content: center;
     height: 78%;
     width: 100%;
-
+    scroll-margin-top: 190px
 
 
 }
@@ -148,8 +146,30 @@ body h3{
     width: 350px;
     height: 300px;
     border-radius: 15px;
+    
     transition: all 0.1s;
 }
+
+.sol1{
+    position: relative;
+
+}
+.sol1:hover{
+    color: black;
+}
+
+
+#img1{
+    position: absolute;
+}
+
+#sol2{
+    position: relative;
+}
+#img2{
+    position: absolute;
+}
+
 
 .contImgPrincipal img:hover{
     padding: .0625rem;
@@ -162,8 +182,8 @@ body h3{
     flex-direction: column;
     padding: 40px;
     align-items: center;
-    height: 100%; 
-
+    height: 45%; 
+    scroll-margin-top: 190px
 }
 
 .tituloSec{
@@ -180,7 +200,7 @@ body h3{
     height: 100%;
     margin-bottom: 240px;
     gap: 70px;
-    
+    scroll-margin-top: 190px
 
 }
 .sectSec > div{
@@ -316,6 +336,7 @@ body h3{
     align-items: center;
     height: 31.25rem;
     gap: 20px;
+    scroll-margin-top: 190px
 }
 .h3Sect3{
     font-size: 50px;
@@ -361,7 +382,9 @@ body h3{
     border-radius: 15px;
 }
 
-
+.sc2{
+    scroll-margin-top: 60px
+}
 
 
 
@@ -382,7 +405,25 @@ body h3{
     min-height: 30px;
 }
 
-
+.con1{
+    height: 300px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.con1:hover{
+    color: black;
+}
+.con2{
+    height: 300px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 /* Footer */
 footer{
     height: 3%;
